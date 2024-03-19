@@ -1,5 +1,7 @@
 # CHLA No-Show Predictions - Web App
-Welcome to [chlanoshow.streamlit.app](https://chlanoshow.streamlit.app/) web application! This predictive tool is tailored for professionals affiliated with the Children's Hospital of Los Angeles (CHLA), including physicians, nurses, clerical staff, and administrators. Its primary objective is to enable informed decision-making by forecasting patient attendance at appointments based on provided data. Such insights can facilitate strategic scheduling adjustments, including the consideration of double booking scenarios, among other operational considerations.
+Welcome to [chlanoshow.streamlit.app](https://chlanoshow.streamlit.app/) web application!
+
+This predictive tool is tailored for professionals affiliated with the Children's Hospital of Los Angeles (CHLA), including physicians, nurses, clerical staff, and administrators. Its primary objective is to enable informed decision-making by forecasting patient attendance at appointments based on provided data. Such insights can facilitate strategic scheduling adjustments, including the consideration of double booking scenarios, among other operational considerations.
 
 ## Files:
 - [chla_app.py](https://github.com/svanhemert00/chla-no-show-web-app/blob/main/chla_app.py): file that generates the user interface, takes in user inputs, runs the model, and returns predicted results
