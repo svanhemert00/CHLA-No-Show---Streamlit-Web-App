@@ -153,4 +153,4 @@ if run_button:
 ### links
 st.markdown("<hr>", unsafe_allow_html=True)
 st.markdown("[🏥 CHLA](https://www.chla.org/)")
-st.markdown("[🐱 GitHub](https://github.com/svanhemert00)")
+st.markdown("[🐱 GitHub](https://github.com/svanhemert00/chla-no-show-web-app)")
