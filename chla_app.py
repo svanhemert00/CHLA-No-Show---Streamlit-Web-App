@@ -59,12 +59,7 @@ if start_datetime and end_datetime:
 else:
     st.warning("Please select both start and end dates")   
 
-'''    
-### select and filter filtered_df by clinic
-clinic_selector = st.multiselect("Select a Clinic", df['CLINIC'].unique())
-filtered_df = filtered_df[filtered_df['CLINIC'].isin(clinic_selector)]
-clinic_strings = []
-'''
+
 ### select and filter filtered_df by clinic
 clinic_selector = st.multiselect("Select a Clinic", df['CLINIC'].unique())
 if len(clinic_selector) == 0:  # Check if no clinic is selected
